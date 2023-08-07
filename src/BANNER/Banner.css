@@ -1,0 +1,96 @@
+.Banner {
+    background-image: linear-gradient(
+      125deg,
+      rgba(114, 44, 3, 0.863),
+      rgba(83, 32, 2, 0.904) 40%,
+      rgba(117, 43, 0, 0.835)
+    );
+
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background-attachment: fixed;
+  }
+  
+  .Banner .wrapper {
+    width: 48%;
+    margin: auto;
+  }
+  
+  .Banner h5 {
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .Banner h3 {
+    font-size: 38px;
+    margin: 10px 0px 40px;
+    line-height: 1.2;
+  }
+  
+  .Banner .button {
+     background: #502004;
+    padding: 13px 20px;
+     color: #f1f1f1;
+    font-size: 14px;
+    border-bottom-left-radius: 50px;
+    border: 2px solid #fdfdfd;
+  }
+  
+  .Banner .button:hover {
+    background: #fff;
+    color: #502004;
+    border: 2px solid #fdfdfd;
+   }
+  
+  @media(max-width:1024px){
+    .Banner {
+      min-height: 300px;
+    }
+  }
+  @media(max-width:498px){
+    .Banner h3 {
+      font-size: 28px;
+      /* margin: 20px; */
+      line-height: 35px;
+    }
+  }
+  @media(max-width:425px){
+    .Banner {
+      min-height: 200px;
+    }
+    
+    .Banner .wrapper {
+
+      width: 100%;
+      margin: auto;
+    }
+    .Banner h5 {
+      width: 100%;
+      color: #f1f1f1;
+      font-weight: bold;
+      font-size: 15px;
+      font-family: Raleway, sans-serif;
+    }
+    
+    .Banner h3 {
+      font-size: 28px;
+      margin: 20px 0px 40px;
+      line-height: 1.2;
+    }
+    
+  }
+  @media(max-width:375px){
+    .Banner h3 {
+       
+      font-size: 20px;
+     }
+
+  }

@@ -1,0 +1,135 @@
+:root{
+    --mainLightBlue:#993203;
+}
+.grid2 {
+    width: 100%;
+    padding: 20px 30px 60px;
+    /* text-align: center; */
+    /* margin-left: 90px; */
+    background: #FFF7F2;
+}
+.grid2 span{
+    /* width: 100px; */
+    max-width: 200px;
+margin-top: 40px;
+text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(68, 88, 144, 0.1) 0px 10px 29px 0px;
+    padding: 30px 0px 20px; 
+    /* margin-top: 10px; */
+    border-radius: 20px;
+    border-bottom: 4px solid var(--mainLightBlue);
+} 
+
+
+@media(max-width:2560px) {
+
+    .grid2 span{
+         max-width: 500px;
+    margin: 40px;
+    
+    } 
+}
+@media(max-width:1024px) {
+    .grid2 span{
+        max-width: 300px;
+   margin: 10px;
+   padding: 20px;
+   } 
+}
+@media(max-width:768px) {
+
+.grid2 {
+    width: 100%;
+    padding: 0;
+    /* height: 150px; */
+    background: #FFF7F2;
+
+}    
+
+.grid2 span{
+    max-width: 100px;
+    width: 100px;
+    margin-top: 40px;
+    text-align: center;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(68, 88, 144, 0.1) 0px 10px 29px 0px;
+        /* padding: 10px ;  */
+        margin-left: 10px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+         padding: 10px 0px 10px; 
+    }
+}
+@media(max-width:635px){
+  .grid2{
+    /* padding: 10px; */
+  }
+    .grid2 span{
+        width: 80px;
+        /* margin-left: 0px; */
+        max-width: 100px;
+        /* width: 99px; */
+        font-size: 10px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+  @media(max-width:533px){
+    .grid2 span{
+        width: 70px;
+         /* max-width: 80px; */
+         font-size: 10px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+  }
+  @media(max-width:483px){
+    .grid2 span{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+            background: transparent;
+            /* box-shadow: none; */
+            /* padding: 10px ;  */
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            border-bottom: none;
+            font-size: 13px;
+    }
+
+}
+  @media(max-width:425px){
+
+    .grid2 {
+        width: 100%;
+        padding: 0;
+        /* height: 150px; */
+        background: #FFF7F2;
+    }  
+
+    .grid2 span{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+            background: transparent;
+            box-shadow: none;
+            /* padding: 10px ;  */
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            border-bottom: none;
+            font-size: 13px;
+    }
+}
+@media(max-width:320px){
+    .grid2 span{
+            font-size: 10px;
+    }
+
+}
